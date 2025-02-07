@@ -1,21 +1,15 @@
+@import "swiper/swiper-bundle.css";
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+@import "swiper/swiper-bundle.css";
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+@font-face {
+  font-family: "IranSans";
+  src: local("IranSans"),
+    url(../public/fonts/5c53f1a72f61b5b51e2ea79a22ebc38b.ttf) format("truetype");
 }
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+* {
+  font-family: "IranSans";
 }

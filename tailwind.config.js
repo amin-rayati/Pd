@@ -11,6 +11,12 @@ module.exports = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      screens: {
+        Mx: "500px",
+        Mxs: "420px",
+        Mxss: "335px",
+        Mxsss: "320px",
+      },
     },
   },
   plugins: [],
