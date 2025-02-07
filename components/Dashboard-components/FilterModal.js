@@ -2,8 +2,8 @@
 import React, { useState } from "react";
 
 import { IoMdClose } from "react-icons/io";
-import DatePicker from "react-datepicker";
-import "react-datepicker/dist/react-datepicker.css";
+// import DatePicker from "react-datepicker";
+// import "react-datepicker/dist/react-datepicker.css";
 const FilterModal = ({ isModalSalaryOpen, closeModalSalary }) => {
   const [startDate, setStartDate] = useState(null);
   return (
@@ -61,7 +61,7 @@ const FilterModal = ({ isModalSalaryOpen, closeModalSalary }) => {
               </select>
             </div>
 
-            <div className="flex flex-col items-right my-5">
+            {/* <div className="flex flex-col items-right my-5">
               <label className="text-sm font-medium text-gray-500 text-right">
                 تاریخ واریزی
               </label>
@@ -74,7 +74,7 @@ const FilterModal = ({ isModalSalaryOpen, closeModalSalary }) => {
                 className="p-3 text-[#016ff] bg-white text-center border-2  rounded-[15px]  focus:outline-none my-3 w-full"
                 placeholderText="انتخاب تاریخ"
               />
-            </div>
+            </div> */}
 
             <div className="flex justify-center mt-10 gap-5">
               <button className="bg-[#0166ff] text-white px-4 py-3 border-[#0166ff] rounded-[15px] w-full text-[15px]">

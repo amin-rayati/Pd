@@ -7,9 +7,9 @@ import bac from "@/public/img/Login/bacImg.png";
 import { FaMale, FaFemale } from "react-icons/fa";
 import { RiEditLine } from "react-icons/ri";
 
-import DatePicker from "react-datepicker";
-import "react-datepicker/dist/react-datepicker.css";
-import moment from "moment-jalaali";
+// import DatePicker from "react-datepicker";
+// import "react-datepicker/dist/react-datepicker.css";
+// import moment from "moment-jalaali";
 
 const LoginForm = () => {
   const [gender, setGender] = useState("");
@@ -62,14 +62,14 @@ const LoginForm = () => {
                 تاریخ تولد
               </label>
 
-              <DatePicker
+              {/* <DatePicker
                 selected={startDate}
                 onChange={(date) => setStartDate(date)}
                 locale="fa"
                 minDate={new Date()}
                 className="p-4 text-[#016ff] text-center border border-gray-300 rounded-[20px] bg-[#ffffff00] focus:outline-none mt-2 w-full"
                 placeholderText="انتخاب تاریخ"
-              />
+              /> */}
             </div>
 
             <div className="flex flex-col items-right my-5">
