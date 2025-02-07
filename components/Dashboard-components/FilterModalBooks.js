@@ -2,8 +2,8 @@
 import React, { useState } from "react";
 
 import { IoMdClose } from "react-icons/io";
-import DatePicker from "react-datepicker";
-import "react-datepicker/dist/react-datepicker.css";
+// import DatePicker from "react-datepicker";
+// import "react-datepicker/dist/react-datepicker.css";
 const FilterModalBooks = ({ isModalBooksOpen, closeModalBooks }) => {
   const [startDate, setStartDate] = useState(null);
   return (
