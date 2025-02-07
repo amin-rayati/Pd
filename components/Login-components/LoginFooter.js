@@ -1,5 +1,5 @@
 import React from "react";
-import logoImg from "@/public/img/footer/footer.png";
+import logoImg from "@/public/img/Footer/footer.png";
 import Image from "next/image";
 import Link from "next/link";
 const LoginFooter = () => {
