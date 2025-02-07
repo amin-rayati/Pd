@@ -1,8 +1,6 @@
 import React from "react";
 
 import Image from "next/image";
-import logoImg from "/public/img/Footer/footer.png";
-import clapImg from "/public/img/Footer/vector.png";
 import { MdOutlineCircle, MdEmail } from "react-icons/md";
 import { BsTelephoneFill } from "react-icons/bs";
 import { FaTelegramPlane } from "react-icons/fa";
@@ -50,15 +48,30 @@ const Footer = () => {
               <p className="text-white text-[20px] text-end">دسترسی سریع</p>
               <div className="flex items-center justify-end mt-5 ">
                 <p className="text-white mx-2 text-[12px]">دوره ها</p>
-                <Image src={clapImg} alt="clapImg" />
+                <Image
+                  src="/img/Footer/vector.png"
+                  width={20}
+                  height={20}
+                  alt="clapImg"
+                />
               </div>
               <div className="flex items-center justify-end mt-5 ">
                 <p className="text-white mx-2 text-[12px]">فروشگاه</p>
-                <Image src={clapImg} alt="clapImg" />
+                <Image
+                  src="/img/Footer/vector.png"
+                  width={20}
+                  height={20}
+                  alt="clapImg"
+                />
               </div>
               <div className="flex items-center justify-end mt-5 ">
                 <p className="text-white mx-2 text-[12px]">ثبت نام استاد</p>
-                <Image src={clapImg} alt="clapImg" />
+                <Image
+                  src="/img/Footer/vector.png"
+                  width={20}
+                  height={20}
+                  alt="clapImg"
+                />
               </div>
             </div>
 
@@ -93,8 +106,10 @@ const Footer = () => {
               <div className="flex items-center justify-end">
                 <p className="text-white mx-5 text-[20px]">پویندگان دانش</p>
                 <Image
-                  src={logoImg}
+                  src="/img/Footer/footer.png"
                   alt="footerImg"
+                  width={50}
+                  height={50}
                   className="rounded-lg object-contain"
                 />
               </div>
