@@ -6,7 +6,7 @@ import MainBanner from "@/components/Dashboard-components/MainBanner";
 import prof from "@/public/img/Dashboard/prof.jpg";
 import NummberModal from "@/components/Dashboard-components/NummberModal";
 
-const page = () => {
+const Page = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const openModal = () => setIsModalOpen(true);
   const closeModal = () => setIsModalOpen(false);
@@ -141,4 +141,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

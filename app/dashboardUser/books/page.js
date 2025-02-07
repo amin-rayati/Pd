@@ -12,7 +12,7 @@ import shop1 from "@/public/img/Shop/shop1.png";
 import shop2 from "@/public/img/Shop/shop2.png";
 import shop3 from "@/public/img/Shop/shop3.png";
 
-const page = () => {
+const Page = () => {
   const [activeTab, setActiveTab] = useState("tab2");
 
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -333,4 +333,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

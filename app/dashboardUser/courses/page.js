@@ -10,7 +10,7 @@ import { FaRegUser } from "react-icons/fa";
 import { MdOutlineDiscount } from "react-icons/md";
 import { HiHashtag } from "react-icons/hi2";
 
-const page = () => {
+const Page = () => {
   const [isModalReportOpen, setIsModalReportOpen] = useState(false);
   const openModalReport = () => setIsModalReportOpen(true);
   const closeModalReport = () => setIsModalReportOpen(false);
@@ -123,4 +123,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

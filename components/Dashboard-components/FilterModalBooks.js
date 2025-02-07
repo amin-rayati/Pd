@@ -31,14 +31,14 @@ const FilterModalBooks = ({ isModalBooksOpen, closeModalBooks }) => {
                 تاریخ سفارش
               </label>
 
-              <DatePicker
+              {/* <DatePicker
                 selected={startDate}
                 onChange={(date) => setStartDate(date)}
                 locale="fa"
                 minDate={new Date()}
                 className="p-3 text-[#016ff] bg-white text-center border-2  rounded-[15px]  focus:outline-none my-3 w-full"
                 placeholderText="انتخاب تاریخ"
-              />
+              /> */}
             </div>
 
             <div className="flex flex-col">

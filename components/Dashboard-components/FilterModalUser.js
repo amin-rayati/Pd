@@ -56,14 +56,14 @@ const FilterModalUser = ({ isModalCourseOpen, closeModalCourse }) => {
                 تاریخ دوره
               </label>
 
-              <DatePicker
+              {/* <DatePicker
                 selected={startDate}
                 onChange={(date) => setStartDate(date)}
                 locale="fa"
                 minDate={new Date()}
                 className="p-3 text-[#016ff] bg-white text-center border-2  rounded-[15px]  focus:outline-none my-3 w-full"
                 placeholderText="انتخاب تاریخ"
-              />
+              /> */}
             </div>
 
             <div className="flex justify-center mt-10 gap-5">

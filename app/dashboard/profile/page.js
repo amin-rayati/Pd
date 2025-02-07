@@ -5,7 +5,7 @@ import MainBanner from "@/components/Dashboard-components/MainBanner";
 import Prof from "@/public/img/Dashboard/prof.jpg";
 import { BiSolidEdit } from "react-icons/bi";
 
-const page = () => {
+const Page = () => {
   const [inputValue, setInputValue] = useState("");
   const [suggestions, setSuggestions] = useState([
     "انگلیسی پیشرفته",
@@ -132,4 +132,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

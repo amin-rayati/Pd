@@ -3,7 +3,7 @@ import { useState } from "react";
 
 import Filter from "@/components/Departments-components/Filter";
 import Blog from "@/components/Blog-components/Blog";
-function page() {
+function Page() {
   const [selectedOption, setSelectedOption] = useState("جدید ترین");
 
   const options = [
@@ -48,4 +48,4 @@ function page() {
   );
 }
 
-export default page;
+export default Page;
