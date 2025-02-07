@@ -1,25 +1,25 @@
 "use client";
 import { useState, useCallback } from "react";
 import { IoMdClose } from "react-icons/io";
-import { GoogleMap, Marker, useJsApiLoader } from "@react-google-maps/api";
+// import { GoogleMap, Marker, useJsApiLoader } from "@react-google-maps/api";
 
-const containerStyle = {
-  width: "100%",
-  height: "150px",
-};
-const defaultCenter = { lat: 36.30991, lng: 59.361484 };
+// const containerStyle = {
+//   width: "100%",
+//   height: "150px",
+// };
+// const defaultCenter = { lat: 36.30991, lng: 59.361484 };
 
 const AddressModal = ({ isModalOpen, closeModal }) => {
-  const [markerPosition, setMarkerPosition] = useState(defaultCenter);
-  const { isLoaded } = useJsApiLoader({
-    googleMapsApiKey: "YOUR_GOOGLE_MAPS_API_KEY", // Replace with your Google Maps API key
-  });
-  const onMapClick = useCallback((event) => {
-    setMarkerPosition({
-      lat: event.latLng.lat(),
-      lng: event.latLng.lng(),
-    });
-  }, []);
+  // const [markerPosition, setMarkerPosition] = useState(defaultCenter);
+  // const { isLoaded } = useJsApiLoader({
+  //   googleMapsApiKey: "YOUR_GOOGLE_MAPS_API_KEY", // Replace with your Google Maps API key
+  // });
+  // const onMapClick = useCallback((event) => {
+  //   setMarkerPosition({
+  //     lat: event.latLng.lat(),
+  //     lng: event.latLng.lng(),
+  //   });
+  // }, []);
 
   return (
     <div>
@@ -42,7 +42,7 @@ const AddressModal = ({ isModalOpen, closeModal }) => {
               <p className="text-black text-lg font-bold">افزودن آدرس</p>
             </div>
 
-            <div className="h-[150px]">
+            {/* <div className="h-[150px]">
               <GoogleMap
                 mapContainerStyle={containerStyle}
                 center={markerPosition}
@@ -51,7 +51,7 @@ const AddressModal = ({ isModalOpen, closeModal }) => {
               >
                 <Marker position={markerPosition} draggable />
               </GoogleMap>
-            </div>
+            </div> */}
 
             <form className="mt-5 space-y-4">
               <div className="flex flex-col">
