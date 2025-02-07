@@ -1,7 +1,8 @@
 import React from "react";
-import logoImg from "@/public/img/footer/footer.png";
-import clapImg from "@/public/img/footer/vector.png";
+
 import Image from "next/image";
+import logoImg from "/public/img/Footer/footer.png";
+import clapImg from "/public/img/Footer/vector.png";
 import { MdOutlineCircle, MdEmail } from "react-icons/md";
 import { BsTelephoneFill } from "react-icons/bs";
 import { FaTelegramPlane } from "react-icons/fa";
